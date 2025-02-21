@@ -1,0 +1,24 @@
+#include: A preprocessor directive that includes the contents of another file (like a header file). #include <iostream> is essential for input and output operations (like std::cout).
+std::cout: An object used for output to the console (standard output). std::cout << "Hello"; prints "Hello" to the screen.
+\n: A special character representing a newline. It moves the cursor to the beginning of the next line.
+return: Used within a function to return a value to the caller. In main(), return 0; indicates successful program execution.
+main(): The main function where program execution begins. Every C++ program must have a main() function.
+Data Types:
+int: Represents integer numbers (whole numbers, positive or negative)
+double: Represents double-precision floating-point numbers (numbers with decimal points). They offer higher precision than float. Examples: 3.14159, -2.5, 1.0.
+char: Represents a single character, enclosed in single quotes. Examples: 'A', 'z', ' ' (space), '\n' (newline).
+std::string: Represents a sequence of characters (a string) Examples: "Hello", "C++ Programming".
+float: Represents single-precision floating-point numbers. 
+
+if: Executes a block of code only if a condition is true.
+else: Provides an alternative block of code to execute if the if condition is false.
+else if: Allows you to check multiple conditions sequentially. If the initial if is false, it checks the else if condition. You can have multiple else if blocks.
+for: Creates a loop that executes a block of code a specific number of times. It has three parts: initialization, condition, and increment/decrement.
+while: Creates a loop that executes a block of code as long as a condition is true.
+do-while: Similar to while, but the code block is executed at least once before the condition is checked.
+Functions:
+
+void: Used as a return type for a function that does not return any value.
+Functions (general): Reusable blocks of code that perform a specific task. They can take input (arguments/parameters) and may return a value.
+Other Keywords/Concepts:
+
